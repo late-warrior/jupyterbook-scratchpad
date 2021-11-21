@@ -1,0 +1,6 @@
+{
+    "port": 9000,
+   "files": ["./docs/_build/html/**/*"],
+   "server": {"baseDir": "./docs/_build/html"}
+}
+ 
