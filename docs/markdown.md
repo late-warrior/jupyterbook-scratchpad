@@ -55,7 +55,7 @@ For more information on writing directives, see the
 
 ### Using a role
 
-Roles are very similar to directives, but they are less-complex and written
+Roles are very similar to directives, but they are *less-complex* and written
 entirely on one line. You can insert a role into your book's content with
 this pattern:
 
@@ -67,6 +67,8 @@ Again, roles will only work if `rolename` is a valid role's name. For example,
 the `doc` role can be used to refer to another page in your book. You can
 refer directly to another page by its relative path. For example, the
 role syntax `` {doc}`intro` `` will result in: {doc}`intro`.
+
+{doc}`notebooks`
 
 For more information on writing roles, see the
 [MyST documentation](https://myst-parser.readthedocs.io/).
@@ -110,6 +112,10 @@ jupyter-book myst init markdown.md
 
 Once a markdown file has Jupytext metadata in it, you can add the following
 directive to run the code at build time:
+
+```{code-cell}
+print(5+4)
+```
 
 ````
 ```{code-cell}

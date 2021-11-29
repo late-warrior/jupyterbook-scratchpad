@@ -10,8 +10,8 @@ $> conda activate jb
 # Watch Environment
 
 * Run `npm i` after cloning this repo
-* Run `npm run watch-build` in one terminal
-* Run `npm run watch-serve` in another
+* Run `npm run watch:build` in one terminal
+* Run `npm run watch:serve` in another
 * Enjoy *almost fast* hot reloading experience
 
 See gif below - 
